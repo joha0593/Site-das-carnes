@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+width: 100%;
+height: 100%;
+}
+body{
+height: 100vw;
+margin: 0 auto;
+}
+
+header{
+background: rgba(0, 0, 0, 0.8);
+padding: 10px;
+}
+.cabecalho-container{  
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 4vw;
+}
+.cabecalho-logo{
+display: flex;
+align-items: center;
+margin-left: 10px;
+}
+.cabecalho-logo h1{
+font-style: italic;
+}
+.logo{
+width: 50px; 
+margin-right: 0px; 
+}
+.cabecalho-container ul{  
+display: flex;
+list-style: none;
+padding: 0;
+margin-right: 10px;
+gap: 10vw;
+}
+.cabecalho-container  li {
+margin: 10px;
+}
+.cabecalho-container a{
+text-decoration: none;
+color: whitesmoke; 
+font-weight: bold;
+font-size: 1.6vw;
+margin: 0px;
+}
+.cabecalho-container a:hover{
+text-decoration: none;
+color: whitesmoke; 
+font-weight: bold;
+font-size: 1.6vw;
+margin: 0px;
+}
+.cabecalho-button{
+padding: 8px 16px;
+background-color: transparent;
+color: whitesmoke;
+border: 2px solid whitesmoke;
+border-radius: 4px;
+cursor: pointer;
+margin-right: 10px;
+font-size: 1.7vw;
+}
+#inicio {
+height: 60vw;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.banner{
+background-image:url(imagens/pedacos-de-carne-fresca-crua-isolados-em-preto-em-placa-de-pedra-vista-lateral-espelhada.jpg) ;
+background-size: 100%;
+display: flex;
+justify-content: center;
+height: 60vw;
+width: 98.7vw;
+margin-top: 0px;
+}
+
+.banner-imagem{
+flex: 1;
+width: 60vw;  
+margin-top: 1vw;
+} 
+.banner-imagem img{
+width: 40vw;
+
+}
+.banner-texto{
+
+display: flex;
+flex-direction: column;
+flex: 2;
+justify-content: center;
+align-items: center;
+padding: 0px; 
+color: white; 
+}
+
+.banner-texto h1 {
+font-size: 10vw; 
+text-align: center;
+justify-content: center;
+align-items: center;  
+margin-bottom: 1vw;
+padding-right: 1vw;
+padding-left: 1vw;
+background-color: darkred;
+
+}
+
+.banner-texto p {
+font-size: 2vw; 
+text-align: center;
+  margin-bottom: 2.6vw;
+justify-content: center;
+align-items: center;
+}
+
+.cta-button {
+padding: 10px 20px;
+background-color: whitesmoke; 
+color: #000; 
+text-decoration: none;
+display: inline-block;
+font-size: 1.8em; 
+margin-left: 20vw;
+margin-bottom: 25vw;
+background-color: transparent;
+color: whitesmoke;
+border: 2px solid whitesmoke;
+border-radius: 4px;
+cursor: pointer;
+
+}
+.carnesExoticas-container, .carnesNobres-container, .formulario-container{
+height: 80vw;
+ background-color: #292828;
+display: flex;
+align-items: center;
+text-align: center;
+color: whitesmoke;
+padding-top: 0vw;
+font-size: 3vw;
+}
+#carnesExoticas h1, #carnesNobres h1, #quemSomos h1, #formulario h1{
+align-items: center;
+text-align: center;
+margin: 3%;
+font-size: 6vw;
+
+}
+.carnesNobres-container, .carnesExoticas-container, .quemSomos-container {
+height: 40vw;
+width: 98vw;
+display: flex;
+flex-direction: row;
+text-align: center;
+gap: 9%;
+margin: .5px;
+justify-content: center;
+
+}
+.carnesExoticas-container img, .carnesNobres-container img{
+width: 20vw;
+}
+.product-section{
+text-align: center;  
+justify-content: center;
+width: 2vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 6%;
+margin-right: 6%;
+}
+.product-section img{
+width: 15vw;
+border-radius: 10%;
+margin-bottom: 2vw;
+}
+
+.product-section h4{
+margin-bottom: 1.5vw;
+font-size: 3.5vw;
+}
+.product-section .dropbtn{
+background-color: rgb(242, 242, 247);
+font-size: 1.5vw;
+height: 4vw;
+margin-bottom: 2vw;
+padding: 0.5vw;
+width: 6vw;
+}
+.product-section h5{
+margin-bottom: 1vw;
+font-size: 1vw;
+}
+.product-section button{
+background-color: darkred;
+font-size: 1.7vw;
+width: 13vw;
+height: 4vw;
+margin-bottom: 1vw;
+border-radius: 30%;
+}
+#quemsomos{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.quemSomos-container{
+width: 80vw;
+height: 40vw;
+ background-color: #292828;
+ color: whitesmoke;
+font-size: 3vw;
+ display: flex;
+align-items: center;
+justify-content: center;
+padding: 8vw;
+margin-left: 8.5vw;
+}
+.quemSomos-container h1{
+   color: whitesmoke;
+  font-size: 5vw;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkred;
+}
+.quemSomos-container img{
+width: 27vw;
+}
+.quemSomos-container p{
+font-size: 2vw;
+ }
+ .quemSomos-imagem{
+padding-top: 5vw;
+ }
+.formulario-container{
+  width: 90vw;
+  height: 70vw;
+  display: flex;
+  align-items: center;
+  margin-left: 4vw;
+  padding: 1vw;
+}
+.formulario-container img{
+  flex:1 ; 
+      margin-left: 3vw; 
+  margin-bottom: 0px;
+}
+.formulario-container form{
+  font-size: 1vw;
+  flex:2 ; 
+  margin: 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 1wv;
+  font-size: 1.5vw;
+}
+
+
+input,
+select,
+textarea {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 3vw;
+  height: 3vw;
+}
+textarea {
+  width: 50%;
+  height: 8vw;
+}
+
+form button {
+  padding: 10px;
+  background-color:darkred;
+  color: whitesmoke;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2vw;
+}
+
+form button:hover {
+  background-color: lightcoral;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-group label {
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.radio-group,
+.checkbox-group {
+  display: flex;
+  gap: 3vw;
+  width: 1vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkred;
+  height: 35vw;
+}
+
+.footer{
+  display: flex;
+  padding: 15vw;
+  padding-top: 1vw;
+}
+.socialLinks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4vw;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.map {
+  display: flex;    
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2vw;
+}
+.social-links{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+gap: 3vw;
+margin-left: 0px;
+color: whitesmoke;
+}
+
+iframe {
+   display: flex;
+  border: 1px solid whitesmoke;
+width: 30vw;
+}
+.socialLinks-container h3, .map h3{
+  color: #000;
+ }
+
+.socialLinks-container a{
+ color: whitesmoke;
+}
